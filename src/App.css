@@ -1,0 +1,321 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  margin: 0 auto;
+  background-color: #F9FAFF;
+}
+
+
+.header {
+  background: url("../public/background.png");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+}
+
+p, h5{
+  margin: 0px;
+  padding: 0px;
+}
+
+.topheader {
+  background-color: #fff;
+}
+
+/* /// header */
+
+.header {
+  background-color: #f7f7f7;
+  padding: 0px 0px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.header-text span {
+  font-size: 50px;
+  color: #ffa500;
+}
+
+.topheader-image img {
+  height: auto;
+  width: 12%;
+}
+
+.header-image {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.header-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* why choose us */
+
+.why-choose-us {
+  padding: 40px;
+  text-align: center;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #222E34;
+  color: #fff;
+}
+.why-choose-us h2 {
+  display: flex;
+  font-size:30px;
+  padding: 20px 0px;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border:1px solid #e0dcdc;
+  border-radius: 5px;
+
+}
+
+.benefit-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+
+
+/*  */
+
+
+.space-overview {
+  padding: 40px 0px;
+}
+
+.space-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+
+.container {
+  max-width:1140px;
+  padding: 40px;
+}
+
+
+.space-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.space-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.space-details h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.space-details .price {
+  font-weight: bold;
+  color: #ffa500;
+}
+
+.space-details .duration {
+  color: #666;
+}
+
+.price-button {
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.download-app {
+  padding: 60px 20px;
+}
+
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.download-image {
+}
+
+.download-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.download-text {
+  flex: 1;
+  background-color: #fff;
+  padding: 70px 40px;
+}
+
+.download-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.download-text p {
+  margin-bottom: 30px;
+}
+
+.app-buttons img {
+  width: 150px;
+  margin: 10px;
+}
+
+/*  */
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ffb700;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.distance-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.location-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.distance {
+  background-color: #e0e0e0;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.pass {
+  text-align: left;
+  position: relative;
+  width: 50%;
+}
+
+.pass h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.bulk-pass .discount {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 12px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.arrow-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f7c945;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-btn:hover {
+  background-color: #daa520;
+}
